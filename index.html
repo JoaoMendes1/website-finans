@@ -17,7 +17,7 @@
   <body>
       
     <header> <!--Start Header-->
-        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+        <nav id="nav-principal" class="navbar navbar-expand-sm navbar-light">
             <div class="container"> <!--Start Container-->
 
                 <a href="#" class="navbar-brand">
@@ -43,7 +43,7 @@
                             <a class="nav-link" href="#">Preços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-light ml-4" href="#">Entrar</a>
+                            <a class="btn btn-outline-light ml-4" href="#">Comece já</a>
                         </li>
                     </ul>
                 </div>
@@ -55,11 +55,12 @@
     <section id="home"> <!--Start section home -->
         <div class="container"> <!--Start Container-->
             <div class="row">
-                <div class="col-md-6 d-flex"> <!--Start text section-->
+                <div class="col-md-7 d-flex"> <!--Start text section-->
                     <div class="align-self-center">
-                        <h1 class="display-4">Suas contas, descomplicadas</h1>
-                        <p>Usado por mais de 1 milhão de pessoas, o finans é uma ferramenta online que vai facilitar a sua vida financeira.</p>
-
+                        <h1 class="display-4 font-weight-bold">Controle suas finanças de forma fácil</h1>
+                        <p>
+                            Sinta a satisfação de ter o controle de suas finanças em mãos e descomplique de vez a sua vida.
+                        </p>
                         <form class="mt-4 mb-4">
                             <div class="input-group input-group-lg">
                                 <input type="text" placeholder="Seu e-mail" class="form-control">
@@ -71,21 +72,57 @@
 
                         <p>Disponível para 
                             <a href="" class="btn btn-outline-dark">
-                                <i class="fab fa-android fa-lg"></i>
+                                <i class="fas fa-desktop fa-f5 " ></i>
                             </a>
                             <a href="" class="btn btn-outline-dark">
-                                <i class="fab fa-apple"></i>
+                                <span style="width: 10px;"><i class="fab fa-android"></i></span>
+                            </a>
+                            <a href="" class="btn btn-outline-dark">
+                                <i class="fab fa-apple fa-lg"></i>
                             </a>
                         </p>
 
                     </div>
                 </div> <!--End text section-->
-                <div class="col-md-6">
+                <div class="col-md-5 d-none d-md-block">
                     <img src="imagens/capa-mulher.png" alt="">
                 </div>
             </div>
         </div> <!--End Container-->
     </section> <!--End section home-->
+
+    <section class="caixa">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h2>Saiba para onde vai o seu dinheiro</h2>
+                        <p>Com o Finans, você categoriza todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.</p>
+                        <a href="" class="btn btn-primary">Veja mais</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagens/saiba.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="caixa">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="imagens/juros.png" class="img-fluid">
+                </div>
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h2>Pare de pagar juros e economize</h2>
+                        <p>Manter as contas em dia é sempre um problema? O finans avisa você: receba alertas de contas a pagar e a receber </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- Optional JavaScript -->
